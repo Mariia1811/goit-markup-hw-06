@@ -720,7 +720,6 @@ gap: 30px;
     height: 18px;
 }
 
-
 /* Modal form */
 
 .modal-form {
@@ -730,7 +729,6 @@ height: 100%;
 .modal-title {
     display: flex;
     justify-content: center;
-    /* margin-bottom: 2px; */
 
     font-weight: 700;
     font-size: 20px;
@@ -774,6 +772,7 @@ height: 100%;
 
 .modal-item:focus-within .modal-input,
 .modal-item:focus-within .madal-textarea {
+    outline: none;
     border-color: var(--accent-color);
 }
 
