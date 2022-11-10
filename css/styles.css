@@ -612,7 +612,10 @@ gap: 30px;
     padding: 16px;
     color: var(--white-color);
     background-color: transparent;
+    outline: none;
 }
+
+
 
 .footer-form input::placeholder{
     font-weight: 400;
